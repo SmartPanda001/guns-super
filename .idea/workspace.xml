@@ -1,7 +1,328 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2b01083-a30a-4987-b727-936595700ed6" name="Default" comment="" />
+    <list default="true" id="a2b01083-a30a-4987-b727-936595700ed6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/GunsServletInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/SpringSessionConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/SwaggerConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/datasource/MultiDataSourceConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/datasource/SingleDataSourceConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/properties/BeetlProperties.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/web/BeetlConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/aop/PermissionAop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/beetl/BeetlConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/cache/Cache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/DeleteDict.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/factory/DictFieldWarpperFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/factory/MutiStrFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/state/LogSucceed.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/state/LogType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/state/MenuStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/state/Order.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/controller/GlobalController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/exception/BizExceptionEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/exception/InvalidKaptchaException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/node/ZTreeNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/log/LogObjectHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/log/factory/LogFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/ShiroDbRealm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/util/CacheUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/util/Contrast.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/util/JwtTokenUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/util/KaptchaUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/api/ApiController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/BlackboardController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/DictController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/KaptchaController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/LoginLogController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/UserMgrController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/MenuMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/NoticeMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/UserMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/mapping/DictMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/mapping/LoginLogMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/mapping/MenuMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/mapping/NoticeMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/mapping/RoleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/factory/UserFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/model/Dept.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/model/Dict.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/model/Expense.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/model/Notice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/IDeptService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/IDictService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/IMenuService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/IOperationLogService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/IRoleService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/IUserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/impl/DictServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/impl/MenuServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/impl/NoticeServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/impl/OperationLogServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/impl/RelationServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/transfer/UserDto.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/warpper/DeptWarpper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/warpper/DictWarpper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/warpper/LogWarpper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/warpper/MenuWarpper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/multi/entity/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/multi/mapper/TestMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/multi/mapper/mapping/TestMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/multi/service/TestService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/multi/service/impl/TestServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/multi/test/BizTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/shiro/Base64Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/system/DeptTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/system/DictTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/system/MenuTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/GunsApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/GunsServletInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/config/EhCacheConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/config/SpringSessionConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/config/SwaggerConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/config/datasource/MultiDataSourceConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/config/datasource/SingleDataSourceConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/config/properties/BeetlProperties.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/config/properties/GunsProperties.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/config/web/BeetlConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/config/web/ShiroConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/config/web/WebConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/aop/GlobalExceptionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/aop/LogAop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/aop/PermissionAop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/beetl/BeetlConfiguration$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/beetl/BeetlConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/beetl/ShiroExt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/annotion/BussinessLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/annotion/Permission.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/Const.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/DatasourceEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/JwtConstants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/cache/Cache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/cache/CacheKey.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/DeleteDict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/DeptDict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/DictMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/LogDict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/MenuDict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/NoticeMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/RoleDict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/UserDict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/base/AbstractDictMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/base/SystemDict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/dictmap/factory/DictFieldWarpperFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/factory/ConstantFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/factory/IConstantFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/factory/MutiStrFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/factory/PageFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/state/BizLogType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/state/ExpenseState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/state/LogSucceed.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/state/LogType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/state/ManagerStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/state/MenuOpenStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/state/MenuStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/constant/state/Order.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/controller/GlobalController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/controller/GunsErrorView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/exception/BizExceptionEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/exception/InvalidKaptchaException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/node/MenuNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/node/ZTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/common/page/PageInfoBT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/interceptor/GunsUserFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/interceptor/RestApiInteceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/interceptor/SessionHolderInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/listener/ConfigListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/log/LogManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/log/LogObjectHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/log/factory/LogFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/log/factory/LogTaskFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/log/factory/LogTaskFactory$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/log/factory/LogTaskFactory$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/log/factory/LogTaskFactory$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/log/factory/LogTaskFactory$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/log/factory/LogTaskFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/shiro/ShiroDbRealm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/shiro/ShiroKit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/shiro/ShiroUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/shiro/service/PermissionCheckService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/shiro/service/UserAuthService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/shiro/service/impl/PermissionCheckServiceServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/shiro/service/impl/UserAuthServiceServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/tag/DictSelectorTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/util/ApiMenuFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/util/CacheUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/util/Contrast.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/util/JwtTokenUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/core/util/KaptchaUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/api/ApiController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/BlackboardController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/DeptController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/DictController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/KaptchaController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/LogController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/LoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/LoginLogController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/MenuController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/NoticeController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/RoleController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/controller/UserMgrController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/DeptMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/DictMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/ExpenseMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/LoginLogMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/MenuMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/NoticeMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/OperationLogMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/RelationMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/RoleMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/UserMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/mapping/DeptMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/mapping/DictMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/mapping/ExpenseMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/mapping/LoginLogMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/mapping/MenuMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/mapping/NoticeMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/mapping/OperationLogMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/mapping/RelationMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/mapping/RoleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/dao/mapping/UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/factory/UserFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/model/Dept.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/model/Dict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/model/Expense.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/model/LoginLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/model/Menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/model/Notice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/model/OperationLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/model/Relation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/model/Role.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/IDeptService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/IDictService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/ILoginLogService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/IMenuService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/INoticeService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/IOperationLogService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/IRelationService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/IRoleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/IUserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/impl/DeptServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/impl/DictServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/impl/LoginLogServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/impl/MenuServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/impl/NoticeServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/impl/OperationLogServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/impl/RelationServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/impl/RoleServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/service/impl/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/transfer/UserDto.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/warpper/DeptWarpper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/warpper/DictWarpper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/warpper/LogWarpper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/warpper/MenuWarpper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/warpper/NoticeWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/warpper/RoleWarpper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/stylefeng/guns/modular/system/warpper/UserWarpper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/base/BaseJunit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/multi/entity/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/multi/mapper/TestMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/multi/service/TestService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/multi/service/impl/TestServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/multi/test/BizTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/shiro/Base64Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/system/BlackBoardTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/system/DeptTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/system/DictTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/system/MenuTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/stylefeng/guns/system/UserTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/GunsApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/GunsApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/EhCacheConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/EhCacheConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/properties/GunsProperties.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/properties/GunsProperties.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/web/ShiroConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/web/ShiroConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/web/WebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/web/WebConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/aop/GlobalExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/aop/GlobalExceptionHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/aop/LogAop.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/aop/LogAop.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/beetl/ShiroExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/beetl/ShiroExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/annotion/BussinessLog.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/annotion/BussinessLog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/annotion/Permission.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/annotion/Permission.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/Const.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/Const.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/DatasourceEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/DatasourceEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/JwtConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/JwtConstants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/cache/CacheKey.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/cache/CacheKey.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/DeptDict.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/dictmap/DeptDict.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/DictMap.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/dictmap/DictMap.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/LogDict.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/dictmap/LogDict.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/MenuDict.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/dictmap/MenuDict.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/NoticeMap.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/dictmap/NoticeMap.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/RoleDict.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/dictmap/RoleDict.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/UserDict.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/dictmap/UserDict.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/base/AbstractDictMap.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/dictmap/base/AbstractDictMap.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/dictmap/base/SystemDict.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/dictmap/base/SystemDict.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/factory/ConstantFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/factory/ConstantFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/factory/IConstantFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/factory/IConstantFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/factory/PageFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/factory/PageFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/state/BizLogType.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/state/BizLogType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/state/ExpenseState.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/state/ExpenseState.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/state/ManagerStatus.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/state/ManagerStatus.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/constant/state/MenuOpenStatus.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/state/MenuOpenStatus.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/controller/GunsErrorView.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/controller/GunsErrorView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/node/MenuNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/node/MenuNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/page/PageInfoBT.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/page/PageInfoBT.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/interceptor/GunsUserFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/interceptor/GunsUserFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/interceptor/RestApiInteceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/interceptor/RestApiInteceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/interceptor/SessionHolderInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/interceptor/SessionHolderInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/listener/ConfigListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/listener/ConfigListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/log/LogManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/log/LogManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/log/factory/LogTaskFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/log/factory/LogTaskFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/ShiroKit.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/shiro/ShiroKit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/ShiroUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/shiro/ShiroUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/service/PermissionCheckService.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/shiro/service/PermissionCheckService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/service/UserAuthService.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/shiro/service/UserAuthService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/service/impl/PermissionCheckServiceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/shiro/service/impl/PermissionCheckServiceServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/service/impl/UserAuthServiceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/shiro/service/impl/UserAuthServiceServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/tag/DictSelectorTag.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/tag/DictSelectorTag.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/util/ApiMenuFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/util/ApiMenuFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/DeptController.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/DeptController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/LogController.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/LogController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/LoginController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/MenuController.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/MenuController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/NoticeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/NoticeController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/RoleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/RoleController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/DeptMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/DeptMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/DictMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/DictMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/ExpenseMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/ExpenseMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/LoginLogMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/LoginLogMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/OperationLogMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/OperationLogMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/RelationMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/RelationMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/RoleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/RoleMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/mapping/DeptMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/mapping/DeptMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/mapping/ExpenseMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/mapping/ExpenseMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/mapping/OperationLogMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/mapping/OperationLogMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/mapping/RelationMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/mapping/RelationMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/dao/mapping/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/mapping/UserMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/model/LoginLog.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/model/LoginLog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/model/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/model/Menu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/model/OperationLog.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/model/OperationLog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/model/Relation.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/model/Relation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/model/Role.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/model/Role.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/model/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/ILoginLogService.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/service/ILoginLogService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/INoticeService.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/service/INoticeService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/IRelationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/service/IRelationService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/impl/DeptServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/service/impl/DeptServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/impl/LoginLogServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/service/impl/LoginLogServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/service/impl/RoleServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/service/impl/UserServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/warpper/NoticeWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/warpper/NoticeWrapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/warpper/RoleWarpper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/warpper/RoleWarpper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/warpper/UserWarpper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/warpper/UserWarpper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/base/BaseJunit.java" afterPath="$PROJECT_DIR$/src/test/java/com/yixi/smartpanda/base/BaseJunit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/system/BlackBoardTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/yixi/smartpanda/system/BlackBoardTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/cn/stylefeng/guns/system/UserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/yixi/smartpanda/system/UserTest.java" />
+    </list>
     <ignored path="guns-super.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,71 +343,11 @@
     <favorites_list name="guns-super" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="PermissionAop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/aop/PermissionAop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionCheckServiceServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/service/impl/PermissionCheckServiceServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAuthServiceServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/service/impl/UserAuthServiceServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1506">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/listener/ConfigListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GunsUserFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/interceptor/GunsUserFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1236">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessionHolderInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/interceptor/SessionHolderInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="RestApiInteceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/interceptor/RestApiInteceptor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/interceptor/RestApiInteceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
+            <state relative-caret-position="360">
               <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding />
             </state>
@@ -94,9 +355,9 @@
         </entry>
       </file>
       <file leaf-file-name="MenuNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/node/MenuNode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/node/MenuNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="300">
               <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
@@ -104,21 +365,86 @@
         </entry>
       </file>
       <file leaf-file-name="ZTreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/node/ZTreeNode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/node/ZTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="270">
               <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeetlConfiguration.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/beetl/BeetlConfiguration.java">
+      <file leaf-file-name="BeetlConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/beetl/BeetlConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state relative-caret-position="350">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiDataSourceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/datasource/MultiDataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-181">
+              <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleDataSourceConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/datasource/SingleDataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GunsProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/properties/GunsProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GunsServletInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/GunsServletInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GunsApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/GunsApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/mapping/RoleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+                <marker date="1546046838526" expanded="true" signature="960:1009" ph="delete from " />
+                <marker date="1546046838526" expanded="true" signature="1112:1240" ph="select id &quot;i... sys_role" />
+                <marker date="1546046838526" expanded="true" signature="1351:1834" ph="SELECT r.id sys_role" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,6 +463,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stylefeng/smartpanda/core/beetl/BeetlConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/beetl/BeetlConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/datasource/MultiDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/datasource/SingleDataSourceConfig.java" />
       </list>
     </option>
   </component>
@@ -220,6 +550,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,11 +569,362 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartpanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartpanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartpanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartpanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartpanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartpanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartpanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartpanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guns-super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartpanda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datasource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,6 +1118,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -598,6 +1281,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -615,7 +1304,8 @@
     </configuration>
     <configuration default="false" name="GunsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.stylefeng.guns.GunsApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yixi.smartpanda.GunsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="guns" />
       <envs />
       <method />
@@ -634,44 +1324,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545981238425</updated>
-      <workItem from="1545981241117" duration="4620000" />
+      <workItem from="1545981241117" duration="5887000" />
+      <workItem from="1546046522247" duration="1985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4620000" />
+    <option name="totallyTimeSpent" value="7872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1066" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1932" height="1066" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16880342" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35911602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="RNConsole" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1741453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17040598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43425414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47513813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RNConsole" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22649573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -695,11 +1386,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/interceptor/RestApiInteceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/node/MenuNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/node/ZTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/beetl/BeetlConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/Guns 技术文档 v5.1.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +1453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-810">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,11 +1468,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2250">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/warpper/DeptWarpper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/warpper/DeptWarpper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
           <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
@@ -763,14 +1483,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2295">
           <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/UserMgrController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/UserMgrController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
@@ -778,7 +1494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/config/SpringSessionConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/SpringSessionConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
@@ -786,18 +1502,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/NoticeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/NoticeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
           <folding>
-            <element signature="e#2242#2243#0" expanded="false" />
             <element signature="e#2287#2288#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/util/KaptchaUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/util/KaptchaUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
@@ -805,7 +1520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/util/ApiMenuFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/util/ApiMenuFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-236">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
@@ -813,7 +1528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/util/Contrast.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/util/Contrast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3306">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
@@ -821,7 +1536,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/util/CacheUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/util/CacheUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-866">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
@@ -829,32 +1544,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/util/JwtTokenUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/util/JwtTokenUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="136" column="7" selection-start-line="135" selection-start-column="14" selection-end-line="136" selection-end-column="7" />
           <folding>
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1435#1436#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
             <element signature="method#doGenerateToken#0;class#JwtTokenUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/api/ApiController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/api/ApiController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
           <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
-          <folding>
-            <element signature="e#3466#3467#0" expanded="false" />
-            <element signature="e#3500#3501#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/KaptchaController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/KaptchaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1416">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
@@ -862,7 +1570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/LogController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/LogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-246">
           <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
@@ -870,7 +1578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/LoginLogController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/LoginLogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-336">
           <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
@@ -878,7 +1586,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/modular/system/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2496">
           <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
@@ -886,7 +1594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/aop/GlobalExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/aop/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
@@ -894,7 +1602,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/aop/LogAop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/aop/LogAop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1776">
           <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
@@ -902,7 +1610,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/annotion/Permission.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/annotion/Permission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
@@ -910,82 +1618,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/aop/PermissionAop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/aop/PermissionAop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/service/impl/PermissionCheckServiceServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/shiro/service/impl/PermissionCheckServiceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="660">
           <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/shiro/service/impl/UserAuthServiceServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/shiro/service/impl/UserAuthServiceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1506">
+        <state relative-caret-position="240">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/listener/ConfigListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/listener/ConfigListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
+        <state relative-caret-position="330">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1112#1113#0" expanded="false" />
+            <element signature="e#1139#1140#0" expanded="false" />
+            <element signature="e#1215#1216#0" expanded="false" />
+            <element signature="e#1243#1244#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/interceptor/GunsUserFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/interceptor/GunsUserFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1236">
+        <state relative-caret-position="420">
           <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/interceptor/SessionHolderInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/interceptor/SessionHolderInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
+        <state relative-caret-position="390">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/interceptor/RestApiInteceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/interceptor/RestApiInteceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
+        <state relative-caret-position="360">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/node/MenuNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/node/MenuNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="300">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/common/node/ZTreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/node/ZTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="270">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stylefeng/guns/core/beetl/BeetlConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/factory/MutiStrFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        <state relative-caret-position="-1175">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/RelationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/mapping/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1546046838526" expanded="true" signature="960:1009" ph="delete from " />
+            <marker date="1546046838526" expanded="true" signature="1112:1240" ph="select id &quot;i... sys_role" />
+            <marker date="1546046838526" expanded="true" signature="1351:1834" ph="SELECT r.id sys_role" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/modular/system/dao/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/common/constant/factory/ConstantFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/core/beetl/BeetlConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/properties/GunsProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/GunsServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/stylefeng/roses/kernel-core/1.1.0/kernel-core-1.1.0.jar!/cn/stylefeng/roses/core/config/WebAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#2001#2002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/GunsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/datasource/MultiDataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yixi/smartpanda/config/datasource/SingleDataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding />
         </state>
       </provider>
